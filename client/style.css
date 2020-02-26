@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600|Mouse+Memoirs&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+}
+
+body .nav {
+  position: fixed;
+  width: 100%;
+  padding: 50px 100px;
+  z-index: 2;
+}
+
+body .nav .logo {
+  position: relative;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+body .nav .logo svg#brush {
+  width: 20.4px;
+  height: 34.36px;
+}
+
+body .nav .logo svg#brush .st0B {
+  fill: #FFFFFF;
+}
+
+body .nav .logo .logo_text {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding-left: 5px;
+  padding-top: 5px;
+  color: #FFFFFF;
+}
+
+body .nav .social_follow {
+  position: relative;
+  float: right;
+}
+
+body .nav .social_follow svg {
+  width: 30px;
+  height: 30px;
+}
+
+body .nav .social_follow svg .st0I, body .nav .social_follow svg .st0T {
+  fill: #FFFFFF;
+}
+
+body .top {
+  position: relative;
+  height: 37.5vh;
+  background-color: #000000;
+}
+
+body .top .bg_pattern {
+  position: absolute;
+  width: 100%;
+}
+
+body .top .bg_pattern svg {
+  width: 285px;
+  height: 285px;
+  opacity: 10%;
+}
+
+body .top .bg_pattern svg .st0S, body .top .bg_pattern svg .st0T, body .top .bg_pattern svg .st0C, body .top .bg_pattern svg .st0X {
+  fill: #FFFFFF;
+  opacity: 70%;
+}
+
+body .top .bg_pattern #x {
+  position: absolute;
+  top: 18.5vh;
+  left: 100px;
+}
+
+body .top .bg_pattern #circle {
+  position: absolute;
+  top: 18.5vh;
+  right: 100px;
+}
+
+body .top .bg_pattern #square {
+  position: relative;
+  bottom: 10vh;
+  left: 385px;
+}
+
+body .top .bg_pattern #triangle {
+  position: absolute;
+  bottom: 10vh;
+  right: 385px;
+}
+
+body .top .headline {
+  position: absolute;
+  top: 18.5vh;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+body .top .headline .headline_text {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+body .top .headline .headline_pattern {
+  display: none;
+}
+
+body .bottom {
+  position: relative;
+  height: 62.5vh;
+}
+
+body .bottom .bg_cover {
+  position: absolute;
+  width: 100%;
+  height: 62.5vh;
+  background-color: #FFFFFF;
+}
+
+body .bottom .insta {
+  position: relative;
+}
+
+body .bottom .insta .insta_top {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-top: 60px;
+}
+
+body .bottom .insta .insta_top .insta_title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+body .bottom .insta .insta_top .insta_count {
+  position: relative;
+  width: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  padding-top: 10px;
+}
+
+body .bottom .insta .insta_top .insta_count span {
+  font-weight: 600;
+}
+
+body .bottom .insta .insta_bottom {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(350px, 350px))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(350px, 350px));
+  grid-gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 100px;
+}
+
+body .bottom .insta .insta_bottom .insta_post {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 0 0 0 0;
+}
+
+body .bottom .insta .insta_bottom .insta_post .insta_post_img {
+  border: 3px #b3b3b3 solid;
+  border-radius: 10px;
+}
+
+body .bottom .insta .insta_bottom .insta_post .insta_post_img img {
+  width: 350px;
+  height: 350px;
+}
+
+body .bottom .insta .insta_bottom .insta_post .insta_post_attr {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 10px 0 0 0;
+  text-transform: uppercase;
+}
+
+body .bottom .insta .insta_bottom .insta_post .insta_post_attr span {
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 1046px) and (max-width: 1545px) {
+  body .top .bg_pattern svg {
+    width: 225px;
+    height: 225px;
+  }
+  body .top .bg_pattern #x {
+    top: 22.5vh;
+    left: 100px;
+  }
+  body .top .bg_pattern #circle {
+    top: 22.5vh;
+    right: 100px;
+  }
+  body .top .bg_pattern #square {
+    bottom: 9vh;
+    left: 285px;
+  }
+  body .top .bg_pattern #triangle {
+    bottom: 9vh;
+    right: 285px;
+  }
+  body .bottom .insta .insta_top .insta_count {
+    width: 26%;
+  }
+}
+
+@media only screen and (min-width: 966px) and (max-width: 1045px) {
+  body .top .bg_pattern svg {
+    width: 185px;
+    height: 185px;
+  }
+  body .top .bg_pattern #x {
+    top: 25.5vh;
+    left: 100px;
+  }
+  body .top .bg_pattern #circle {
+    top: 25.5vh;
+    right: 100px;
+  }
+  body .top .bg_pattern #square {
+    bottom: 7vh;
+    left: 285px;
+  }
+  body .top .bg_pattern #triangle {
+    bottom: 7vh;
+    right: 285px;
+  }
+  body .bottom .insta .insta_top .insta_count {
+    width: 28%;
+  }
+}
+
+@media only screen and (min-width: 746px) and (max-width: 965px) {
+  body .top .bg_pattern svg {
+    width: 145px;
+    height: 145px;
+  }
+  body .top .bg_pattern #x {
+    top: 27.5vh;
+    left: 100px;
+  }
+  body .top .bg_pattern #circle {
+    top: 27.5vh;
+    right: 100px;
+  }
+  body .top .bg_pattern #square {
+    bottom: 5vh;
+    left: 215px;
+  }
+  body .top .bg_pattern #triangle {
+    bottom: 5vh;
+    right: 215px;
+  }
+  body .bottom .insta .insta_top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    padding: 60px 0 40px 0;
+  }
+  body .bottom .insta .insta_top .insta_count {
+    width: 36%;
+  }
+}
+
+@media only screen and (min-width: 596px) and (max-width: 745px) {
+  body .nav {
+    background-color: #000000;
+  }
+  body .top {
+    background-color: #FFFFFF;
+  }
+  body .top .bg_pattern {
+    display: none;
+  }
+  body .top .headline {
+    position: absolute;
+    top: 18.5vh;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  body .top .headline .headline_text {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  body .top .headline .headline_pattern {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .top .headline .headline_pattern svg {
+    width: 55px;
+    height: 55px;
+  }
+  body .bottom .insta .insta_top {
+    padding: 60px 0 40px 0;
+  }
+  body .bottom .insta .insta_top .insta_count {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 595px) {
+  body .nav {
+    padding: 20px 30px;
+    background-color: #000000;
+  }
+  body .top {
+    height: 32.5vh;
+    background-color: #FFFFFF;
+  }
+  body .top .bg_pattern {
+    display: none;
+  }
+  body .top .headline {
+    position: absolute;
+    top: 16.5vh;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  body .top .headline .headline_text {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  body .top .headline .headline_pattern {
+    border: 1px red solid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .top .headline .headline_pattern svg {
+    width: 35px;
+    height: 35px;
+  }
+  body .bottom .bg_cover {
+    display: none;
+  }
+  body .bottom .insta {
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  body .bottom .insta .insta_top {
+    padding-top: 30px;
+  }
+  body .bottom .insta .insta_top .insta_count {
+    width: 80%;
+  }
+  body .bottom .insta .insta_bottom .insta_post .insta_post_img img {
+    width: 300px;
+    height: 300px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
